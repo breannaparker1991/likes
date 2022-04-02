@@ -1,0 +1,115 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* this is the nav */
+
+nav{
+  height: 130px;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 200%;
+}
+
+.black{
+  width: 1000px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.white{                                 
+  width: 1000px;
+  background: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+/* this is for the likes boxes */
+
+main{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+}
+
+.col3{
+  flex: 2;
+  margin: 0 20px;
+} 
+
+.container{
+  height: 130px;
+  border: 5px solid black;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h3{
+  font-size: 170%;
+}
+
+p{
+  font-size: 120%;
+}
+
+span{
+  padding-right: 30px;
+  font-size: 120%;
+}
+
+.header{
+  height: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yellow{
+  color: black;
+  background-color: yellow;
+  height: 30px;
+  width: auto;
+  padding: 0px 10px;
+  border: 3px solid black;
+  box-shadow: 2px 2px black;
+}
+
+/* this is for the avatar box */
+
+.col1{
+  flex: 1;
+}
+
+.avatar{
+  height: 300px;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 0 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  
+  /* justify-content: space-between; */
+  /* flex: 1; */
+}
+
+img{
+  align-self: center;
+  height: 100px;
+  width: 100px;
+}
